@@ -1,10 +1,9 @@
 # async-concat-stream
 
-Asynchronous [concat-stream]
+Asynchronous [concat-stream]. Writable stream that concatenates string or binary data and returns a promise that resolves with the result.
 
 [![npm](https://img.shields.io/npm/v/async-concat-stream.svg?style=flat-square)](https://www.npmjs.com/package/async-concat-stream)
 [![Build Status](https://img.shields.io/travis/seangenabe/async-concat-stream/master.svg?style=flat-square)](https://travis-ci.org/seangenabe/async-concat-stream)
-[![Dependency Status](https://img.shields.io/david/seangenabe/async-concat-stream.svg?style=flat-square)](https://david-dm.org/seangenabe/async-concat-stream)
 [![devDependency Status](https://img.shields.io/david/dev/seangenabe/async-concat-stream.svg?style=flat-square)](https://david-dm.org/seangenabe/async-concat-stream#info=devDependencies)
 [![node](https://img.shields.io/node/v/async-concat-stream.svg?style=flat-square)](https://nodejs.org/en/download/)
 
