@@ -1,6 +1,6 @@
 {
   "name": "async-concat-stream",
-  "version": "1.0.0-1",
+  "version": "1.0.0",
   "description": "Asynchronous concat-stream. Writable stream that concatenates string or binary data and returns a promise that resolves with the result.",
   "scripts": {
     "test": "ava"
