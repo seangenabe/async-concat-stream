@@ -1,0 +1,29 @@
+{
+  "name": "async-concat-stream",
+  "version": "1.0.0-1",
+  "description": "Asynchronous concat-stream",
+  "scripts": {
+    "test": "ava"
+  },
+  "homepage": "https://github.com/seangenabe/async-concat-stream",
+  "author": "Sean Genabe <seangenabe@outlook.com>",
+  "repository": "seangenabe/async-concat-stream",
+  "license": "MIT",
+  "engines": {
+    "node": ">=4"
+  },
+  "main": "index.js",
+  "keywords": [
+    "async",
+    "promise",
+    "stream",
+    "buffer"
+  ],
+  "dependencies": {
+    "concat-stream": "^1.5.1"
+  },
+  "devDependencies": {
+    "ava": "^0.10.0",
+    "babel-core": "^6.4.0"
+  }
+}
