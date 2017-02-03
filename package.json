@@ -23,7 +23,7 @@
     "concat-stream": "^1.5.1"
   },
   "devDependencies": {
-    "ava": "^0.17.0",
+    "ava": "^0.18.1",
     "babel-core": "^6.4.0"
   }
 }
