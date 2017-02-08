@@ -6,7 +6,7 @@ import { PassThrough } from 'stream'
 
 test('concat', async t => {
   let writable = concat()
-  t.ok(writable.write)
+  t.truthy(writable.write)
   t.is(writable.promise.constructor.name, 'Promise')
   let source = new PassThrough({ encoding: 'utf8' })
   source.pipe(writable)
@@ -14,7 +14,7 @@ test('concat', async t => {
   source.write('b')
   source.end('c')
   let data = await writable.promise
-  t.same(data, 'abc')
+  t.is(data, 'abc')
 })
 
 test('concat with opts', async t => {
@@ -24,7 +24,7 @@ test('concat with opts', async t => {
   source.write('a')
   source.end('b')
   let data = await writable.promise
-  t.same(data, new Buffer('ab', 'utf8'))
+  t.truthy(new Buffer('ab', 'utf8').equals(data))
 })
 
 test('concat.from', async t => {
@@ -34,7 +34,7 @@ test('concat.from', async t => {
   source.write('b')
   source.end('c')
   let data = await promise
-  t.same(data, 'abc')
+  t.deepEqual(data, 'abc')
 })
 
 test('concat.from with opts', async t => {
@@ -43,5 +43,5 @@ test('concat.from with opts', async t => {
   source.write('a')
   source.end('b')
   let data = await promise
-  t.same(data, new Buffer('ab', 'utf8'))
+  t.deepEqual(data, new Buffer('ab', 'utf8'))
 })
