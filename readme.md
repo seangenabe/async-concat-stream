@@ -1,5 +1,7 @@
 # async-concat-stream
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/seangenabe/async-concat-stream.svg)](https://greenkeeper.io/)
+
 Asynchronous [concat-stream]. Writable stream that concatenates string or binary data and returns a promise that resolves with the result.
 
 [![npm](https://img.shields.io/npm/v/async-concat-stream.svg?style=flat-square)](https://www.npmjs.com/package/async-concat-stream)
