@@ -1,5 +1,7 @@
 # async-concat-stream
 
+DEPRECATED. Please use [get-stream](https://github.com/sindresorhus/get-stream) instead.
+
 Asynchronous [concat-stream]. Writable stream that concatenates string or binary data and returns a promise that resolves with the result.
 
 [![npm](https://img.shields.io/npm/v/async-concat-stream.svg?style=flat-square)](https://www.npmjs.com/package/async-concat-stream)
